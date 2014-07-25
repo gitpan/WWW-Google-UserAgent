@@ -1,0 +1,26 @@
+---
+abstract: 'Core library for Google API services.'
+author:
+  - 'Mohammad S Anwar <mohammad.anwar@yahoo.com>'
+build_requires:
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.141520'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: WWW-Google-UserAgent
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  HTTP::Tiny: '0'
+  Moo: '0'
+  Throwable: '0'
+  namespace::clean: '0'
+  perl: '5.006'
+version: '0.01'
