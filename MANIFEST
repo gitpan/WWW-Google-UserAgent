@@ -1,8 +1,7 @@
-Build.PL
 Changes
-lib/WWW/Google/DataTypes.pm
-lib/WWW/Google/Exception.pm
 lib/WWW/Google/UserAgent.pm
+lib/WWW/Google/UserAgent/DataTypes.pm
+lib/WWW/Google/UserAgent/Exception.pm
 Makefile.PL
 MANIFEST
 SIGNATURE

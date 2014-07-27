@@ -1,5 +1,8 @@
 Revision history for WWW-Google-UserAgent
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
+0.02    Sun Jul 27 11:30:00 2014
+        - Slight re-organized the library.
+
+0.01    Sat Jul 19 16:31:20 2014
+        First version, released.
 

@@ -1,6 +1,6 @@
-package WWW::Google::Exception;
+package WWW::Google::UserAgent::Exception;
 
-$WWW::Google::Exception::VERSION = '0.01';
+$WWW::Google::UserAgent::Exception::VERSION = '0.02';
 
 use 5.006;
 use Moo;
@@ -18,11 +18,11 @@ has line_number => (is => 'ro');
 
 =head1 NAME
 
-WWW::Google::Exception - Interface to Exception class used by WWW::Google::UserAgent.
+WWW::Google::UserAgent::Exception - Interface to Exception class used by WWW::Google::UserAgent.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -49,7 +49,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc WWW::Google::Exception
+    perldoc WWW::Google::UserAgent::Exception
 
 You can also look for information at:
 
@@ -113,4 +113,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of WWW::Google::Exception
+1; # End of WWW::Google::UserAgent::Exception

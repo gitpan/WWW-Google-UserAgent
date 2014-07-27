@@ -1,6 +1,6 @@
-package WWW::Google::DataTypes;
+package WWW::Google::UserAgent::DataTypes;
 
-$WWW::Google::DataTypes::VERSION = '0.01';
+$WWW::Google::UserAgent::DataTypes::VERSION = '0.02';
 
 use 5.006;
 use parent 'Exporter';
@@ -14,11 +14,11 @@ our @EXPORT_OK = qw(
 
 =head1 NAME
 
-WWW::Google::DataTypes - Used by the core library WWW::Google::UserAgent
+WWW::Google::UserAgent::DataTypes - Used by the core library WWW::Google::UserAgent
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -59,7 +59,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc WWW::Google::DataTypes
+    perldoc WWW::Google::UserAgent::DataTypes
 
 You can also look for information at:
 
@@ -123,4 +123,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of WWW::Google::DataTypes
+1; # End of WWW::Google::UserAgent::DataTypes
