@@ -1,6 +1,6 @@
 package WWW::Google::UserAgent;
 
-$WWW::Google::UserAgent::VERSION = '0.03';
+$WWW::Google::UserAgent::VERSION = '0.04';
 
 use 5.006;
 use Data::Dumper;
@@ -17,7 +17,7 @@ WWW::Google::UserAgent - Core library for Google API services.
 
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 =cut
 
@@ -34,7 +34,7 @@ services.
 =head2 get(<url>)
 
 The method get() expects one parameter i.e. URL and returns the standard response.
-On error throws exception of type L<WWW::Google::Exception>.
+On error throws exception of type L<WWW::Google::UserAgent::Exception>.
 
 =cut
 
@@ -63,7 +63,7 @@ sub get {
 =head2 post(<url>, <headers>, <content>)
 
 The method post() expects three parameters i.e. URL, Headers, Content in the same
-order and returns the standard response. On error throws exception of type L<WWW::Google::Exception>.
+order and returns the standard response. On error throws exception of type L<WWW::Google::UserAgent::Exception>.
 
 =cut
 

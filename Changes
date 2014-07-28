@@ -1,5 +1,8 @@
 Revision history for WWW-Google-UserAgent
 
+0.04    Mon Jul 28 14:49:21 2014
+        - Fixed typo in the pod document
+
 0.03    Mon Jul 28 14:10:29 2014
         - Updated WWW::Google::UserAgent to import the package correctly.
 
