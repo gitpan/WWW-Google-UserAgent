@@ -1,12 +1,12 @@
 package WWW::Google::UserAgent;
 
-$WWW::Google::UserAgent::VERSION = '0.02';
+$WWW::Google::UserAgent::VERSION = '0.03';
 
 use 5.006;
 use Data::Dumper;
 
 use HTTP::Tiny;
-use WWW::Google::Exception;
+use WWW::Google::UserAgent::Exception;
 
 use Moo;
 use namespace::clean;
@@ -17,7 +17,7 @@ WWW::Google::UserAgent - Core library for Google API services.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
@@ -48,7 +48,7 @@ sub get {
     @caller = caller(2) if $caller[3] eq '(eval)';
 
     unless ($response->{success}) {
-	WWW::Google::Exception->throw({
+	WWW::Google::UserAgent::Exception->throw({
             method      => $caller[3],
             message     => "request to API failed",
             code        => $response->{status},
