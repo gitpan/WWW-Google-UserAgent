@@ -1,6 +1,6 @@
 package WWW::Google::UserAgent::Exception;
 
-$WWW::Google::UserAgent::Exception::VERSION = '0.04';
+$WWW::Google::UserAgent::Exception::VERSION = '0.05';
 
 use 5.006;
 use Moo;
@@ -9,8 +9,8 @@ with 'Throwable';
 
 use overload q{""} => 'as_string', fallback => 1;
 
-has message     => (is => 'ro');
 has method      => (is => 'ro');
+has message     => (is => 'ro');
 has code        => (is => 'ro');
 has reason      => (is => 'ro');
 has filename    => (is => 'ro');
@@ -22,7 +22,7 @@ WWW::Google::UserAgent::Exception - Interface to Exception class used by WWW::Go
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
@@ -30,7 +30,7 @@ sub as_string {
     my ($self) = @_;
 
     return sprintf("%s(): %s (status: %s) file %s on line %d\n",
-                   $self->method, $self->message,  $self->status,
+                   $self->method, $self->message, $self->code,
                    $self->filename, $self->line_number);
 }
 
