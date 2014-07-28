@@ -1,5 +1,8 @@
 Revision history for WWW-Google-UserAgent
 
+0.06    Mon Jul 28 23:26:29 2014
+        - Fixed method post() and return the exception object correctly.
+
 0.05    Mon Jul 28 17:23:30 2014
         - Fixed invalid call to method status() in the module WWW::Google::UserAgent::Exception.
 
