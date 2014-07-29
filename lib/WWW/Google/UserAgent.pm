@@ -1,6 +1,6 @@
 package WWW::Google::UserAgent;
 
-$WWW::Google::UserAgent::VERSION = '0.06';
+$WWW::Google::UserAgent::VERSION = '0.07';
 
 use 5.006;
 use Data::Dumper;
@@ -17,7 +17,7 @@ WWW::Google::UserAgent - Core library for Google API services.
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 

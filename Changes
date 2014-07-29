@@ -1,5 +1,8 @@
 Revision history for WWW-Google-UserAgent
 
+0.07    Tue Jul 29 15:00:00 2014
+        - Fixed the unit test t/00-load.t
+
 0.06    Mon Jul 28 23:26:29 2014
         - Fixed method post() and return the exception object correctly.
 

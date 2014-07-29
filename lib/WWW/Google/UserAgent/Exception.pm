@@ -1,6 +1,6 @@
 package WWW::Google::UserAgent::Exception;
 
-$WWW::Google::UserAgent::Exception::VERSION = '0.06';
+$WWW::Google::UserAgent::Exception::VERSION = '0.07';
 
 use 5.006;
 use Moo;
@@ -22,7 +22,7 @@ WWW::Google::UserAgent::Exception - Interface to Exception class used by WWW::Go
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 
