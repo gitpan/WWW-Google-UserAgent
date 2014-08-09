@@ -23,4 +23,4 @@ requires:
   Throwable: '0'
   namespace::clean: '0'
   perl: '5.006'
-version: '0.07'
+version: '0.08'
