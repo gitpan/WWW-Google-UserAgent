@@ -1,6 +1,6 @@
 package WWW::Google::UserAgent::Exception;
 
-$WWW::Google::UserAgent::Exception::VERSION = '0.08';
+$WWW::Google::UserAgent::Exception::VERSION = '0.09';
 
 use 5.006;
 use Moo;
@@ -22,7 +22,7 @@ WWW::Google::UserAgent::Exception - Interface to Exception class used by WWW::Go
 
 =head1 VERSION
 
-Version 0.08
+Version 0.09
 
 =cut
 
@@ -37,6 +37,10 @@ sub as_string {
 =head1 AUTHOR
 
 Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
+
+=head1 REPOSITORY
+
+L<https://github.com/Manwar/WWW-Google-UserAgent>
 
 =head1 BUGS
 

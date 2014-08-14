@@ -19,27 +19,13 @@
          "inc"
       ]
    },
-   "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Test::More" : "0"
-         }
-      },
-      "configure" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
-      "runtime" : {
-         "requires" : {
-            "HTTP::Tiny" : "0",
-            "Moo" : "0",
-            "Throwable" : "0",
-            "namespace::clean" : "0",
-            "perl" : "5.006"
-         }
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Manwar/WWW-Google-UserAgent.git",
+         "web" : "https://github.com/Manwar/WWW-Google-UserAgent"
       }
    },
-   "release_status" : "stable",
-   "version" : "0.08"
+   "version" : "0.09"
 }

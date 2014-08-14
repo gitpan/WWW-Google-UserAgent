@@ -1,5 +1,9 @@
 Revision history for WWW-Google-UserAgent
 
+0.09    Fri Aug 15 00:02:18 2014
+        - Added secction "REPOSITORY" to the pod
+        - Added key "META_MERGE" to Makefile.PL
+
 0.08    Sat Aug 09 05:18:10 2014
         - Tidied up README file.
 
