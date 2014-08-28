@@ -1,6 +1,6 @@
 package WWW::Google::UserAgent::DataTypes;
 
-$WWW::Google::UserAgent::DataTypes::VERSION = '0.09';
+$WWW::Google::UserAgent::DataTypes::VERSION = '0.10';
 
 use 5.006;
 use parent 'Exporter';
@@ -18,7 +18,7 @@ WWW::Google::UserAgent::DataTypes - Used by the core library WWW::Google::UserAg
 
 =head1 VERSION
 
-Version 0.09
+Version 0.10
 
 =cut
 
